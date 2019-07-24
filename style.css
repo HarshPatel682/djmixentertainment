@@ -3,8 +3,8 @@
     padding: 0;
 }
 
-
 /*---------Navigation------------*/
+
 #header {
     position: absolute;
     z-index: 10;
@@ -15,16 +15,16 @@
     padding: 50px 0;
 }
 
-.navbar-brand{
+.navbar-brand {
     font-weight: 600;
     font-size: 15.em;
 }
 
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand {
     color: #dcdde1;
 }
 
-.nav-item{
+.nav-item {
     font-weight: 600;
     text-transform: uppercase;
     padding-left: 10px;
@@ -36,7 +36,8 @@
 }
 
 /*----main----*/
-.main{
+
+.main {
     position: relative;
     background: url(img/headphones_backdrop.jpeg);
     min-height: 100vh;
@@ -54,14 +55,14 @@
     font-weight: bold;
 }
 
-.main p{
+.main p {
     margin-top: 1em;
     padding: 0;
     font-size: 1em;
     color: #dcdde1;
 }
 
-.main .btn{
+.main .btn {
     background: 718093;
     color: #fff;
     border-radius: 0;
@@ -78,12 +79,61 @@
     width: 90%;
 }
 
-@media(max-width: 768px){
-    .main{
+@media(max-width: 768px) {
+    .main {
         padding: 200px 0;
     }
-
     .main h2 {
         font-size: 2em;
     }
+}
+
+/* ------------------get in touch--------- */
+
+#contact {
+    background: #efefef;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: #777;
+}
+
+#contact h1 {
+    text-align: center;
+    color: #777;
+    padding-bottom: 10px;
+}
+
+#contact h1::after
+{
+    content: '';
+    background: #007bff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.contact-form {
+    padding: 15px;
+}
+
+.form-control {
+    border-radius: 0 !important;
+    border: none !important;
+}
+
+::placeholder {
+    color: #999 !important;
+}
+
+.follow {
+    background: #fff;
+    padding: 10px;
+    margin: 15px;
+}
+
+.contact-info .fa {
+    margin: 10px;
+    color: #007bff;
+    font-weight: bold;
 }
